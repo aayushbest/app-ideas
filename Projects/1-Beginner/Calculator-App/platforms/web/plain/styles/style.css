@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+.calculator{
+    margin:0 auto;
+    background-color: black;
+    display:flex;
+    height:500px;
+    width:300px;
+    border:1px solid black;
+    box-shadow: 2px 2px green;
+}
+
+.control{
+    clip-path: circle(50px);
+    shape-outside: circle(50%);
+}

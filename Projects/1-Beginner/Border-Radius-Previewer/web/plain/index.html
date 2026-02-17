@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Border Radius Previewer</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Border Radius Previewer</h1>
+    <div class="box">
+        <div class="example-box"></div>
+        <form>
+            <p class="form-group">
+                <label class="lbl-radius" for="border-bottom-left-radius">Bottom-Left Radius:</label>
+                <input type="number" min="0" name="border-bottom-left-radius" class="radius" required />
+            </p>
+            <p class="form-group">
+                <label class="lbl-radius" for="border-top-left-radius">Top-Left Radius:</label>
+                <input type="number" min="0" name="border-top-left-radius" class="radius" required />
+            </p>
+            <p class="form-group">
+                <label class="lbl-radius" for="border-top-right-radius">Top-Right Radius:</label>
+                <input type="number" min="0" name="border-top-right-radius" class="radius" required />
+            </p>
+            <p class="form-group">
+                <label class="lbl-radius" for="border-bottom-right-radius">Bottom-Right Radius:</label>
+                <input type="number" min="0" name="border-bottom-right-radius" class="radius" required />
+            </p>
+            <button type="button">Copy CSS Style</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

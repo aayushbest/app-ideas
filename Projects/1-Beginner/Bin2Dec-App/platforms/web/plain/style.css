@@ -1,0 +1,61 @@
+:root{
+    --bg-color:aliceblue;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+
+div.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    background-color: var(--bg-color);
+    height: 50%;
+    width: 50%;
+    padding:100px;
+
+}
+
+h1{
+    display:block;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input#binaryNumberInput{
+    border:none;
+    width:100%;
+    border-radius: 20px;
+    background-color:chocolate;
+    opacity: 50%;
+    color:white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+input#binaryNumberInput::placeholder{
+    font-weight: 100;
+    color:white;
+}
+
+input#binaryNumberInput:invalid{
+    --bg-color: red;
+}
+
+input#binaryNumberInput:valid,input#binaryNumberInput:active{
+    --bg-color:green;
+}
+
+output#decimalNumberOutput{
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
